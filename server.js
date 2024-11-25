@@ -4,6 +4,8 @@ const cors = require('cors')
 let data = require('./data')
 
 app.use(cors())
+// Use express.static to serve the "images" folder
+app.use('/images', express.static(path.join(__dirname, 'images')));
 
 app.get('/', (request, response) => {
   response.send(data)
