@@ -15,7 +15,7 @@ app.get('/api/birds/:name',(request, response) => {
   }
 })
 
-const PORT = 3001
+const port = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`)
 })
