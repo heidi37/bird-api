@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 let data = require('./data')
+
+app.use(cors())
 
 app.get('/', (request, response) => {
   response.send(data)
