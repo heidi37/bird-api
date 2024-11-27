@@ -21,7 +21,7 @@ const birdData = {
     latinName: "unknown",
     order: "unknown",
     family: "unknown",
-    image: "unknowng"
+    image: "unknown"
     }
   }
 
