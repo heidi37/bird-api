@@ -21,3 +21,5 @@ I also learned about the <code>express.static</code> method which serves up all 
 ## Related Projects
 Here is a very simple web application that accesses the Bird API:
 https://heidifryzell.com/what-bird/
+
+NOTE: The *What Bird* web application is hosted on free web hosting and may take up to a minute to spin up when you fill the form and make a request.
